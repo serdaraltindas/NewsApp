@@ -15,6 +15,7 @@
 		AEDF85BB29F92ED100536042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEDF85B929F92ED100536042 /* LaunchScreen.storyboard */; };
 		AEDF85C529F93C6900536042 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDF85C429F93C6900536042 /* NewsTableViewCell.swift */; };
 		AEDF85C929F94F5600536042 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDF85C829F94F5600536042 /* News.swift */; };
+		AEDF85CB29F9513400536042 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDF85CA29F9513400536042 /* WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AEDF85BC29F92ED100536042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEDF85C429F93C6900536042 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		AEDF85C829F94F5600536042 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		AEDF85CA29F9513400536042 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,9 @@
 		AEDF85AD29F92ED000536042 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				AEDF85C229F92F6100536042 /* Delegate */,
 				AEDF85C729F94F4500536042 /* Service */,
 				AEDF85C629F94F3100536042 /* Model */,
-				AEDF85C229F92F6100536042 /* Delegate */,
 				AEDF85C329F93A4B00536042 /* View */,
 				AEDF85B429F92ED000536042 /* Main.storyboard */,
 				AEDF85B729F92ED100536042 /* Assets.xcassets */,
@@ -101,6 +103,7 @@
 		AEDF85C729F94F4500536042 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				AEDF85CA29F9513400536042 /* WebService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEDF85CB29F9513400536042 /* WebService.swift in Sources */,
 				AEDF85B329F92ED000536042 /* ViewController.swift in Sources */,
 				AEDF85AF29F92ED000536042 /* AppDelegate.swift in Sources */,
 				AEDF85C529F93C6900536042 /* NewsTableViewCell.swift in Sources */,
