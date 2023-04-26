@@ -15,6 +15,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         tableView.dataSource = self
         tableView.delegate  = self
+        
+        let url = URL(string: "https://raw.githubusercontent.com/atilsamancioglu/BTK-iOSDataSet/master/dataset.json")
+        WebService().haberleriIndir(url: url!) { (haberler) in
+            if let haberler = haberler {
+                print(haberler)
+            }
+        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
