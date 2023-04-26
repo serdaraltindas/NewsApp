@@ -2,6 +2,7 @@
 //API-JSON
 //Veri kaynak sağlayıcıları.
 //JSON -> FORMATTED
+//MVVM -> MODEL-VİEW-VİEWMODEL
 
 import UIKit
 
