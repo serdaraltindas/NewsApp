@@ -1,5 +1,7 @@
 
-//
+//API-JSON
+//Veri kaynak sağlayıcıları.
+//JSON -> FORMATTED
 
 import UIKit
 
