@@ -1,9 +1,4 @@
-//
-//  ViewController.swift
-//  NewsApp
-//
-//  Created by Serdar Altındaş on 26.04.2023.
-//
+
 
 import UIKit
 

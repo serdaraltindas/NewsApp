@@ -56,8 +56,7 @@
 		AEDF85AD29F92ED000536042 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
-				AEDF85AE29F92ED000536042 /* AppDelegate.swift */,
-				AEDF85B029F92ED000536042 /* SceneDelegate.swift */,
+				AEDF85C229F92F6100536042 /* Delegate */,
 				AEDF85B229F92ED000536042 /* ViewController.swift */,
 				AEDF85B429F92ED000536042 /* Main.storyboard */,
 				AEDF85B729F92ED100536042 /* Assets.xcassets */,
@@ -65,6 +64,15 @@
 				AEDF85BC29F92ED100536042 /* Info.plist */,
 			);
 			path = NewsApp;
+			sourceTree = "<group>";
+		};
+		AEDF85C229F92F6100536042 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AEDF85B029F92ED000536042 /* SceneDelegate.swift */,
+				AEDF85AE29F92ED000536042 /* AppDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
